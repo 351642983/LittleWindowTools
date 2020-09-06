@@ -1,0 +1,11 @@
+#include "rank.h"
+
+rank::rank(QWidget *parent):
+    QDialog(parent)
+{
+
+}
+rank::~rank()
+{
+
+}

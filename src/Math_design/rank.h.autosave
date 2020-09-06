@@ -1,0 +1,20 @@
+#ifndef RANK_H
+#define RANK_H
+
+#include <QDialog>
+#include <QFile>
+
+
+class rank:public QDialog
+{
+public:
+    rank(QWidget *parent);
+    ~rank();
+
+private:
+    void showrank(int);
+    int insertrank(char*,qreal);
+
+};
+
+#endif // RANK_H
